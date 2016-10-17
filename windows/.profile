@@ -6,12 +6,11 @@ export PATH=/Library/Scripts/Terminal:$PATH
 alias home='cd ~/'
 alias apps='cd /Applications'
 alias dt='cd ~/Desktop'
-alias code='cd ~/Dropbox/code'
 alias proj='cd ~/Dropbox/projects'
 alias dl='cd ~/Downloads'
 alias books='cd ~/Documents/Books'
 alias sdks='cd /Library/SDKs'
-alias daxko='cd ~/Dropbox/projects/daxko'
+alias daxko='cd ~/projects/daxko'
 alias pres='cd ~/Documents/Presentations'
 
 #Git
