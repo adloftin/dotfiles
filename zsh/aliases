@@ -2,9 +2,9 @@
 alias rm='rm -rf $1'
 
 # config
-alias zea='subl ~/.zsh/aliases'
-alias zec='subl ~/.zsh/config'
-alias dots='subl ~/.dotfiles'
+alias zea='code ~/.zsh/aliases'
+alias zec='code ~/.zsh/config'
+alias dots='code ~/.dotfiles'
 
 # cd
 alias ..='cd ..'
@@ -19,6 +19,7 @@ alias pres='cd ~/Documents/Presentations'
 alias stp='cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages'
 alias box='cd ~/Dropbox'
 alias mega='cd ~/MEGA'
+alias daxko='cd ~/projects/daxko'
 
 # ls
 alias ls="ls -F"
