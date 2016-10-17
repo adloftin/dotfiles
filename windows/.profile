@@ -5,14 +5,12 @@ export PATH=/Library/Scripts/Terminal:$PATH
 #Alases
 alias home='cd ~/'
 alias apps='cd /Applications'
-alias uc='cd ~/Urban\ Coding/'
 alias dt='cd ~/Desktop'
 alias code='cd ~/Dropbox/code'
 alias proj='cd ~/Dropbox/projects'
 alias dl='cd ~/Downloads'
 alias books='cd ~/Documents/Books'
 alias sdks='cd /Library/SDKs'
-alias trent='cd ~/Dropbox/trent'
 alias daxko='cd ~/Dropbox/projects/daxko'
 alias pres='cd ~/Documents/Presentations'
 
@@ -28,16 +26,6 @@ alias hlt='heroku logs -t'
 show_all_files() {
 	defaults write com.apple.finder AppleShowAllFiles $1
 	killall Finder
-}
-
-dth() {
-	if [[ $1 == all ]]; then
-	        rm -rf ~/Library/Application\ Support/Trillian/t2kocurek/logs/GOOGLE/Query/*
-	        rm -rf ~/Library/Application\ Support/Trillian/t2kocurek/logs/AIM/Query/*
-	        rm -rf ~/Library/Application\ Support/Trillian/t2kocurek/logs/FACEBOOK/Query/*
-	        rm -rf ~/Library/Application\ Support/Trillian/t2kocurek/logs/YAHOO/Query/*
-	fi
-	        rm -rf ~/Library/Application\ Support/Trillian/t2kocurek/logs/$1/Query/*
 }
 
 gita() {
@@ -72,8 +60,3 @@ IBlue='\[\e[0;94m\]'        # Blue
 IWhite='\[\e[0;97m\]'       # White
 
 export PS1="\`ruby -e \"print (%x{git branch 2> /dev/null}.split(%r{\n}).grep(/^\*/).first || '').gsub(/^\* (.+)$/, '$IBlue[\1]$Color_Off:')\"\`$IWhite\W$Color_Off ~> "
-
-
-
-
-
