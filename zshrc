@@ -7,13 +7,9 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 # use .localrc for settings specific to one system
 [[ -f ~/.localrc ]] && . ~/.localrc
 
-# Android
-PATH=$PATH:/Applications/Android\ Studio.app/sdk/platform-tools
-PATH=$PATH:/Applications/Android\ Studio.app/sdk/build-tools
-PATH=$PATH:/Applications/Android\ Studio.app/sdk/tools
-
 # Node
 PATH=$PATH:/usr/local/share/npm/bin
+PATH=$PATH:$HOME/.npm-packages/bin
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
