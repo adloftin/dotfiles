@@ -68,3 +68,6 @@ alias rca='rake cucumber:all'
 
 # commands starting with % for pasting from web
 alias %=' '
+
+# unix epoch timestamp
+alias epoch="date +'%s'"
