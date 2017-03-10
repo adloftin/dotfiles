@@ -11,5 +11,9 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:/usr/local/share/npm/bin
 PATH=$PATH:$HOME/.npm-packages/bin
 
+# Yarn packages
+PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
